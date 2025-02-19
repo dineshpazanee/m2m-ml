@@ -1,46 +1,22 @@
-RangeIndex: 1000 entries, 0 to 999
-Data columns (total 40 columns):
- #   Column                       Non-Null Count  Dtype  
----  ------                       --------------  -----  
- 0   months_as_customer           1000 non-null   int64  
- 1   age                          1000 non-null   int64  
- 2   policy_number                1000 non-null   int64  
- 3   policy_bind_date             1000 non-null   object 
- 4   policy_state                 1000 non-null   object 
- 5   policy_csl                   1000 non-null   object 
- 6   policy_deductable            1000 non-null   int64  
- 7   policy_annual_premium        1000 non-null   float64
- 8   umbrella_limit               1000 non-null   int64  
- 9   insured_zip                  1000 non-null   int64  
- 10  insured_sex                  1000 non-null   object 
- 11  insured_education_level      1000 non-null   object 
- 12  insured_occupation           1000 non-null   object 
- 13  insured_hobbies              1000 non-null   object 
- 14  insured_relationship         1000 non-null   object 
- 15  capital-gains                1000 non-null   int64  
- 16  capital-loss                 1000 non-null   int64  
- 17  incident_date                1000 non-null   object 
- 18  incident_type                1000 non-null   object 
- 19  collision_type               1000 non-null   object 
- 20  incident_severity            1000 non-null   object 
- 21  authorities_contacted        909 non-null    object 
- 22  incident_state               1000 non-null   object 
- 23  incident_city                1000 non-null   object 
- 24  incident_location            1000 non-null   object 
- 25  incident_hour_of_the_day     1000 non-null   int64  
- 26  number_of_vehicles_involved  1000 non-null   int64  
- 27  property_damage              1000 non-null   object 
- 28  bodily_injuries              1000 non-null   int64  
- 29  witnesses                    1000 non-null   int64  
- 30  police_report_available      1000 non-null   object 
- 31  total_claim_amount           1000 non-null   int64  
- 32  injury_claim                 1000 non-null   int64  
- 33  property_claim               1000 non-null   int64  
- 34  vehicle_claim                1000 non-null   int64  
- 35  auto_make                    1000 non-null   object 
- 36  auto_model                   1000 non-null   object 
- 37  auto_year                    1000 non-null   int64  
- 38  fraud_reported               1000 non-null   object 
- 39  _c39                         0 non-null      float64
-dtypes: float64(2), int64(17), object(21)
-memory usage: 312.6+ KB
+RangeIndex: 37542 entries, 0 to 37541
+Data columns (total 16 columns):
+ #   Column            Non-Null Count  Dtype  
+---  ------            --------------  -----  
+ 0   ID                37542 non-null  object 
+ 1   birthdate         37542 non-null  object 
+ 2   marital_status    37542 non-null  object 
+ 3   car_use           37542 non-null  object 
+ 4   gender            37542 non-null  object 
+ 5   kids_driving      37542 non-null  int64  
+ 6   parent            37542 non-null  object 
+ 7   education         37542 non-null  object 
+ 8   car_make          37542 non-null  object 
+ 9   car_model         37542 non-null  object 
+ 10  car_color         37542 non-null  object 
+ 11  car_year          37542 non-null  int64  
+ 12  claim_freq        37542 non-null  int64  
+ 13  coverage_zone     37542 non-null  object 
+ 14  claim_amt         37542 non-null  float64
+ 15  household_income  37542 non-null  float64
+dtypes: float64(2), int64(3), object(11)
+memory usage: 4.6+ MB
